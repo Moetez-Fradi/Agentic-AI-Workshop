@@ -1,0 +1,9 @@
+smolagents[openai]
+pandas
+numpy
+matplotlib
+python-dotenv
+
+openinference-instrumentation-smolagents
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-http
