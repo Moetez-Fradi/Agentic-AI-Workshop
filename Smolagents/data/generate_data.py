@@ -8,7 +8,7 @@ import pandas as pd
 
 np.random.seed(7)
 
-REGIONS = ["EMEA", "NA", "APAC"]
+REGIONS = ["EMEA", "NAM", "APAC"]
 PRODUCTS = {
     "Product A": 500,
     "Product B": 350,
@@ -20,8 +20,6 @@ PRODUCTS = {
 DAYS = 90
 START = "2026-05-01"
 
-# Products that quietly decline in EMEA specifically, so the
-# "top 3 underperforming in EMEA" question has a real answer.
 EMEA_DECLINERS = {"Product B", "Product D", "Product F"}
 
 dates = pd.date_range(START, periods=DAYS, freq="D")
